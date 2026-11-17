@@ -1,0 +1,86 @@
+<?php
+$nama_lengkap = "Muhamad Faisal Dhiyael Haq";
+$nama_panggilan = "Isal";
+$tempat_lahir = "Bogor, Jawa Barat, Indonesia";
+$tanggal_lahir = "11 Desember 2010";
+$umur = "15 Tahun";
+$alamat = "Ciherang Kidul RT 02 RW 02, Kecamatan Ciomas, Kabupaten Bogor";
+$no_hp = "085129779462";
+$nama_ayah = "Marjuki";
+$nama_ibu = "Gina Aryanti";
+$no_hp_ayah = "+62 821-1144-1608";
+$no_hp_ibu = "+62 896-1143-4640";
+$pekerjaan_ayah = "Bekerja di pabrik";
+$pekerjaan_ibu = "Ibu rumah tangga";
+$hobi = "Bermain game eFootball dan coding";
+?>
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Biodata Diri</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #eaf2f8;
+            padding: 30px;
+        }
+
+        .container {
+            background: white;
+            max-width: 650px;
+            margin: auto;
+            padding: 25px;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px #aaa;
+        }
+
+        h2 {
+            text-align: center;
+            color: #1565c0;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        td {
+            padding: 10px;
+            border-bottom: 1px solid #ddd;
+        }
+
+        td:first-child {
+            font-weight: bold;
+            width: 40%;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="container">
+    <h2>BIODATA DIRI</h2>
+
+    <table>
+        <tr><td>Nama Lengkap</td><td><?php echo $nama_lengkap; ?></td></tr>
+        <tr><td>Nama Panggilan</td><td><?php echo $nama_panggilan; ?></td></tr>
+        <tr><td>Tempat Lahir</td><td><?php echo $tempat_lahir; ?></td></tr>
+        <tr><td>Tanggal Lahir</td><td><?php echo $tanggal_lahir; ?></td></tr>
+        <tr><td>Umur</td><td><?php echo $umur; ?></td></tr>
+        <tr><td>Alamat</td><td><?php echo $alamat; ?></td></tr>
+        <tr><td>No HP</td><td><?php echo $no_hp; ?></td></tr>
+        <tr><td>Nama Ayah</td><td><?php echo $nama_ayah; ?></td></tr>
+        <tr><td>Nama Ibu</td><td><?php echo $nama_ibu; ?></td></tr>
+        <tr><td>No HP Ayah</td><td><?php echo $no_hp_ayah; ?></td></tr>
+        <tr><td>No HP Ibu</td><td><?php echo $no_hp_ibu; ?></td></tr>
+        <tr><td>Pekerjaan Ayah</td><td><?php echo $pekerjaan_ayah; ?></td></tr>
+        <tr><td>Pekerjaan Ibu</td><td><?php echo $pekerjaan_ibu; ?></td></tr>
+        <tr><td>Hobi</td><td><?php echo $hobi; ?></td></tr>
+    </table>
+</div>
+
+</body>
+</html>

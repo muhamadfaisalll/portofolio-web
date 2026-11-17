@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Faisal — Portofolio</title>
+  <meta name="description" content="Portofolio Faisal, pelajar web development dan desain.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- BERANDA -->
+  <header class="hero" id="beranda">
+    <div class="bg-name" aria-hidden="true">ISALL</div>
+
+    <div class="hero-inner">
+      <div class="hero-text">
+        <h1>Halo.<br>Saya <span class="accent">Muhamad Faisal Dhiyael Haq</span></h1>
+        <p class="role">Pelajar web development &amp; desain</p>
+        <p class="lead">
+          Perkenalkan, nama saya Muhamad Faisal Dhiyael Haq. Saya lagi belajar bikin website dari nol, Saya adalah seorang siswa
+          Kelas 10 PPLG 3 di SMK Negeri 1 Ciomas. Saya suka main game 
+          Dan sekarang saya lagi niat buat project portofolio ini untuk belajar lebih banyak tentang web development dan desain.
+        </p>
+        <a class="link-arrow" href="#proyek">Lihat proyek saya &rarr;</a>
+      </div>
+
+      <div class="hero-visual">
+        <div class="photo" id="photo">
+          <img src="img/WhatsApp Image 2026-11-17 at 20.21.54.jpeg" alt="Foto Isal" id="photoImg">
+          <span class="photo-fallback" id="photoFallback">I</span>
+        </div>
+
+        <div class="panel panel-code" aria-hidden="true">
+          <div class="panel-bar"><span>style.css</span></div>
+<pre><span class="c-sel">label</span> {
+  <span class="c-prop">display</span>: block;
+  <span class="c-prop">margin-bottom</span>: <span class="c-val">5px</span>;
+  <span class="c-prop">color</span>: <span class="c-val">black</span>;
+}</pre>
+        </div>
+
+        <div class="panel panel-learn" aria-hidden="true">
+          <div class="panel-bar"><span>lagi dipelajari</span></div>
+          <ul>
+            <li>JavaScript dasar</li>
+            <li>Desain UI</li>
+            <li>PHP</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- TENTANG -->
+    <section class="section" id="tentang">
+      <div class="wrap">
+        <p class="eyebrow">01 — Tentang</p>
+        <div class="about-grid">
+          <h2>Tentang Saya</h2>
+          <div class="about-body">
+            <p>
+              Nama saya Faisal. Saya tertarik dengan Pengembangan perangkat lunak karena saya mau mencoba menjadi
+              Web Developer. Dan saya juga mencari tantangan baru untuk mengembangkan kemampuan saya di bidang ini.
+            </p>
+            <p>
+              Proyek pertama saya adalah website menu untuk jasuke. Dari situ saya
+              belajar menyusun layout, memilih warna, dan membuat navigasi sederhana
+            </p>
+            <dl class="facts">
+              <div><dt>Pendidikan</dt><dd>SMKN 1 CIOMAS</dd></div>
+              <div><dt>Minat</dt><dd>Web, desain tampilan, UI</dd></div>
+              <div><dt>Ingin ditekuni</dt><dd>Frontend Developer</dd></div>
+            </dl>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILL -->
+    <section class="section alt" id="skill">
+      <div class="wrap">
+        <p class="eyebrow">02 — Skill</p>
+        <h2 class="h2-small">Yang saya pakai sekarang</h2>
+
+        <ul class="skills">
+          <li><strong>HTML</strong><span>Menyusun struktur halaman</span></li>
+          <li><strong>CSS</strong><span>Layout, warna, responsive</span></li>
+          <li><strong>JavaScript</strong><span>Masih dasar, membuat interaksi sederhana</span></li>
+          <li><strong>PHP</strong><span>Baru mulai, dan baru menggunakan xampp</span></li>
+          <li><strong>UI Design</strong><span>Sketsa tampilan sebelum coding</span></li>
+        </ul>
+        <p class="note">Tidak ada persentase, karena skill tidak bisa diukur dengan bar.</p>
+      </div>
+    </section>
+
+    <!-- PROYEK -->
+    <section class="section" id="proyek">
+      <div class="wrap">
+        <p class="eyebrow">03 — Proyek</p>
+
+         <ol class="projects">
+          <li class="project">
+            <span class="num">01</span>
+            <div class="project-info">
+              <h3>Jasuke Mejeuh Ey</h3>
+              <p>Website sederhana untuk menampilkan produk dan menu jasuke.</p>
+              <p class="tech">HTML · CSS · JavaScript</p>
+              <div class="project-links">
+                <a href="Tugas baru.html" target="_blank" rel="noopener">Lihat demo</a>
+              </div>
+            </div>
+            <div class="shot" role="img" aria-label="Screenshot Jasuke Mejeuh Ey">
+              <img src="img/WhatsApp Image 2026-11-17 at 19.40.38.jpeg" alt="" onerror="this.remove()">
+              <span>screenshot<br>jasuke.png</span>
+            </div>
+          </li>
+
+          <li class="project">
+            <span class="num">02</span>
+            <div class="project-info">
+              <h3>Website Biodata Diri</h3>
+              <p>Website untuk menampilkan biodata diri</p>
+              <p class="tech">HTML · PHP · CSS</p>
+              <div class="project-links">
+                <a href="Jadi jadian.html" target="_blank" rel="noopener">Lihat demo</a>
+              </div>
+            </div>
+            <div class="shot">
+              <img src="img/WhatsApp Image 2026-11-17 at 20.06.47.jpeg" alt="" onerror="this.remove()">
+              <span>screenshot<br>proyek2.png</span>
+            </div>
+          </li>
+    </section>
+
+    <!-- KONTAK -->
+    <section class="section alt" id="kontak">
+      <div class="wrap contact-grid">
+        <div>
+          <p class="eyebrow">04 — Kontak</p>
+          <h2>Kritik dan Saran</h2>
+          <p class="contact-text">Kirim pesan lewat form, atau langsung ke salah satu tautan ini.</p>
+          <ul class="contact-links">
+            <li><a href="https://instagram.com/muhmmadfaisall__" target="https://www.instagram.com/muhmmadfaisall__?exln=aXdxOW9ia2d2YnBu" rel="noopener">Instagram</a></li>
+            <li><a href="https://github.com/muhamadfaisalll" target="https://github.com/muhamadfaisalll" rel="noopener">GitHub</a></li>
+          </ul>
+        </div>
+
+        <form class="form" id="contactForm">
+          <label>Nama
+            <input type="text" name="nama" required autocomplete="name">
+          </label>
+          <label>Email kamu
+            <input type="email" name="email" required autocomplete="email">
+          </label>
+          <label>Pesan
+            <textarea name="pesan" rows="5" required></textarea>
+          </label>
+          <button type="submit" class="btn">Kirim pesan</button>
+          <p class="form-note" id="formNote"></p>
+        </form>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <p>© <span id="year"></span> Muhamad Faisal Dhiyael Haq</p>
+  </footer>
+
+  <!-- BAR NAVIGASI BAWAH -->
+  <nav class="dock" aria-label="Navigasi utama">
+    <a class="btn btn-small" href="mailto:emailkamu@gmail.com">Email saya</a>
+
+    <ul class="dock-nav">
+      <li><a href="#beranda" data-link="beranda">Halo</a></li>
+      <li><a href="#tentang" data-link="tentang">Tentang</a></li>
+      <li><a href="#skill" data-link="skill">Skill</a></li>
+      <li><a href="#proyek" data-link="proyek">Proyek</a></li>
+      <li><a href="#kontak" data-link="kontak">Kontak</a></li>
+    </ul>
+
+    <ul class="dock-social">
+      <li><a href="https://github.com/muhamadfaisalll" target="_blank" rel="noopener" aria-label="GitHub">
+        <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor"><path d="M12 .5a11.5 11.5 0 0 0-3.64 22.41c.58.1.79-.25.79-.56v-2c-3.2.7-3.88-1.37-3.88-1.37-.52-1.33-1.28-1.69-1.28-1.69-1.04-.71.08-.7.08-.7 1.15.08 1.76 1.19 1.76 1.19 1.03 1.76 2.7 1.25 3.36.96.1-.75.4-1.25.73-1.54-2.55-.29-5.24-1.28-5.24-5.69 0-1.26.45-2.28 1.19-3.09-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.17 1。
+</html>

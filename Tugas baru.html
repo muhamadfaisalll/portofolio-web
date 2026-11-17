@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title> Jasuke </title>
+    <style>
+        header {
+            background-color: yellow;
+            color: black;
+            text-align: center;
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        header h1 {
+            margin: 0 0 15px 0;
+            font-size: 30px;
+        }
+
+        nav {
+            margin-top: 10px;
+        }
+
+        nav a {
+            color: black;
+            text-decoration: none;
+            margin: 0 8 px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: black;
+            text-decoration: underline;
+        }
+
+        main {
+            width: 90%;
+            max-width: 1100px;
+            margin: 30px auto;
+        }
+
+        section {
+            background-color: yellow;
+            padding: 30px;
+            margin-bottom: 30px;
+            border-radius: 15px;
+        }
+
+        section h2 {
+            color: black;
+            text-align: center;
+            margin: 0 0 15px 0;
+        }
+
+        #Beranda {
+            text-align: center;
+        }
+
+        #Beranda img {
+            width: 30%;
+            max-width: 600px;
+            height: auto;
+            margin-top: 15px;
+            border-radius: 10px;
+        }
+
+        #Beranda p {
+            font-size: 18px;
+            color: black;
+        }
+
+        table {
+            width: 100%;
+            margin-top: 20px;
+            background-color: white;
+        }
+
+        th {
+            background-color: greenyellow;
+            padding: 12px;
+        }
+
+        td {
+            padding: 12px;
+            text-align: center;
+            border: 1px solid black;
+        }
+
+        form {
+            max-width: 600px;
+            margin: auto;
+            background-color: white;
+            padding: 10px;
+        }
+
+        form p {
+            margin-bottom: 15px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+
+        input,
+        textarea {
+            width: 90%;
+            padding: 20px;
+            margin: 10px;
+            border: 1px solid black;
+            border-radius: 6px;
+            font-family: Arial, sans-serif;
+            font-size: 16px;
+        }
+
+        button {
+            background-color: black;
+            color: white;
+            border: none;
+            padding: 12px 25px;
+            border-radius: 6px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: yellow;
+        }
+
+        footer {
+            background-color: yellow;
+            color: black;
+            text-align: center;
+            padding: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Jasuke mejeuh euy </h1>
+        <nav>
+            <a href="#Beranda">Beranda</a>
+            <a href="#Produk">Produk</a>
+            <a href="#HubungiKami">Hubungi Kami</a>
+            <a href="#TentangKami">Tentang kami </a>
+        </nav>
+    </header>
+    <main>
+        <hr>
+        <section class="" id="Beranda">
+            <h2>Beranda</h2>
+            <img src="img/Jasuke Mejeuh Ey Snack Cup Logo.png" alt="banner toko" width="250px" height="200px">
+            <p>
+                Jasuke adalah makanan manis yang sangat disukai oleh kalangan muda maupun tua jasuke adalah jagung yang
+                direbus dan juga menggunakan keju parut dengan susu
+                Dan makanan ini juga sangat enak serta harga nya yang murah membuat banyak orang meminati atau menyukai
+                makanan tersebut
+                Jasuke adalah singkatan dari Jagung Susu Keju, sebuah jajanan kaki lima populer di Indonesia yang
+                berasal dari Jawa Barat (dan juga diklaim berkembang dari Kampung Malamay, Sorong, Papua). Jajanan ini
+                terdiri dari jagung manis
+            </p>
+            <button id="tombolSapaan">Sapa pengunjung</button>
+            <p id="hasilSapaan"></p>
+        </section>
+
+        <section class="" id="Produk">
+            <h2>Produk</h2>
+
+            <label for="cariMenu">Cari menu:</label>
+            <input type="text" id="cariMenu" placeholder="Contoh: Jasuke" />
+
+            <table border="1" cellpadding="5">
+                <thead>
+                    <tr>
+                        <th>No</th>
+                        <th>Nama Produk</th>
+                        <th>Harga</th>
+                        <th>Foto</th>
+                    </tr>
+                </thead>
+                <tbody id="daftarMenu">
+                    <tr>
+                        <td>1</td>
+                        <td>Jasuke original</td>
+                        <td>5.000</td>
+                        <td><img src="img/Creamy Corn Dessert Cup.png" alt="Jasuke Original" width="100"></td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Jasuke coklat</td>
+                        <td>6.000</td>
+                        <td><img src="img/Chocolate-Drizzled Creamy Corn Dessert.png" alt="Jasuke Coklat" width="100">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Jasuke Choco Krunch</td>
+                        <td>7.000</td>
+                        <td><img src="img/Chocolate Corn Cereal Dessert Cup.png" alt="Jasuke Choco Krunch" width="100">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>Jasuke strawberry</td>
+                        <td>6.000</td>
+                        <td><img src="img/WhatsApp Image 2026-10-05 at 19.06.56.jpeg" alt="Jasuke Strawberry"
+                                width="100"></td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>Jasuke matcha</td>
+                        <td>6.000</td>
+                        <td><img src="img/WhatsApp Image 2026-10-05 at 19.20.04.jpeg" alt="Jasuke Matcha" width="100">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>6</td>
+                        <td>Jasuke blueberry</td>
+                        <td>6.000</td>
+                        <td><img src="img/WhatsApp Image 2026-10-05 at 19.25.20.jpeg" alt="Jasuke Blueberry"
+                                width="100"></td>
+                    </tr>
+                    <tr>
+                        <td>7</td>
+                        <td>Jasuke mangga</td>
+                        <td>10.000</td>
+                        <td><img src="img/WhatsApp Image 2026-10-05 at 19.26.51.jpeg" alt="Jasuke Mangga" width="100">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>8</td>
+                        <td>Jasuke Vanilla</td>
+                        <td>7.000</td>
+                        <td><img src="img/WhatsApp Image 2026-10-05 at 19.28.36.jpeg" alt="Jasuke Vanilla" width="100">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>9</td>
+                        <td>Jasuke oreo</td>
+                        <td>10.000</td>
+                        <td><img src="img/Corn and Cookie Cream Dessert.png" alt="Jasuke Oreo" width="100"></td>
+                    </tr>
+                    <tr>
+                        <td>10</td>
+                        <td> Jasuke taro</td>
+                        <td>10.000</td>
+                        <td><img src="img/WhatsApp Image 2026-10-05 at 19.30.40.jpeg" alt="Jasuke Taro" width="100">
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <p id="hasilPencarian"></p>
+        </section>
+
+        <section class="" id="HubungiKami">
+            <h2>Hubungi Kami</h2>
+            <form action="#" method="post" id="formKontak">
+                <p><label for="">Nama Lengkap</label>
+                    <input type="text" name="Nama" id="Nama" placeholder="Masukan Nama Anda" required>
+                </p>
+                <p><label for="">Email</label>
+                    <input type="Email" name="Email" id="Email" placeholder="contoh@gmail.com" required>
+                </p>
+                <p><label for="">No Hp</label>
+                    <input type="number" name="No Hp" id="No Hp" placeholder="Masukan No Hp" required>
+                </p>
+                <p><label for="">Pesan</label>
+                    <textarea name="pesan" id="pesan"></textarea>
+                </p>
+                <p><button>Simpan</button></p>
+            </form>
+
+        </section>
+
+        <section class="" id="TentangKami">
+            <h2>Tentang Kami</h2>
+            <img src="img/webcam-toy-photo6.jpg" alt="foto" width="400px" height="300px">
+            <h2>Nama lengkap: Muhamad faisal</h2>
+            <p>Nisn: 3109627984</p>
+            <img src="img/webcam-toy-photo7.jpg" alt="foto" width="250px" height="200px">
+            <h2>Nama lengkap: Muhammad Erlangga </h2>
+            <p>Nisn: 0102202437</p>
+            <img src="img/webcam-toy-photo9.jpg" alt="foto" width="250px" height="200px">
+            <h2>Nama Lengkap: Muhammad fahmi jalaludin</h2>
+            <p>Nisn: 3112928043</p>
+            <img src="img/webcam-toy-photo10.jpg" alt="foto" width="250px" height="200px">
+            <h2>Nama Lengkap: Mohamad ihsanurizky aminullah</h2>
+            <p>Nisn: 0108702637</p>
+            <img src="img/webcam-toy-photo12.jpg" alt="foto" width="250px" height="200px">
+            <h2>Nama Lengkap: Muhammad zikri ramadan</h2>
+            <p>Nisn: 0118303830</p>
+            <img src="img/webcam-toy-photo11.jpg" alt="foto" width="250px" height="200px">
+
+    </main>
+
+    <footer>
+        Copyright 2026 &copy; by Fahmi,Zidan,Ihsan,Zikri dan Faisal
+    </footer>
+
+</body>
+
+</html>
+<script>
+    // 1. Variabel menggunakan let dan const
+    const namaToko = "Jasuke mejeuh ey"
+    let jumlahPengunjung = 0;
+
+    function sapaPengunjung() {
+        jumlahPengunjung++;
+
+        const hasil = document.getElementById("hasilSapaan");
+        [];
+        hasil.textContent =
+            "Selamat datang di " +
+            namaToko +
+            "! Kamu pengunjung ke-" +
+            jumlahPengunjung +
+            ".";
+
+        alert(" Halo! Selamat datang di " + namaToko);
+    }
+
+    document
+        .getElementById("tombolSapaan")
+        .addEventListener("click", sapaPengunjung);
+
+    //untuk search table
+    const inputCari = document.getElementById("cariMenu");
+    const barisMenu = document.querySelectorAll("#daftarMenu tr");
+    const hasilPencarian = document.getElementById("hasilPencarian");
+
+    inputCari.addEventListener("input", function () {
+        const kataKunci = inputCari.value.toLowerCase();
+        let jumlahDitemukan = 0;
+
+        barisMenu.forEach(function (baris) {
+            const namaMenu = baris.cells[1].textContent.toLowerCase();
+            const kategori = baris.cells[2].textContent.toLowerCase();
+
+            if (namaMenu.includes(kataKunci) || kategori.includes(kataKunci)) {
+                baris.style.display = "";
+                jumlahDitemukan++;
+            } else {
+                baris.style.display = "none";
+            }
+            if (jumlahDitemukan > 0) {
+                hasilPencarian.textContent = "Ditemukan " + jumlahDitemukan + "menu.";
+            } else {
+                hasilPencarian.textContent = "Menu tidak ditemukan";
+            }
+
+    })
+});
+
+
+</script>
