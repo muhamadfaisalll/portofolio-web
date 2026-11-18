@@ -1,10 +1,10 @@
 /* ---------- Variabel: cuma 3 warna ---------- */
 :root {
-  --bg: #f6f4ee;      /* off-white hangat */
-  --bg-alt: #ecE9df;  /* sedikit lebih gelap untuk selang-seling section */
+  --bg: 	#f6f4ee;      /* off-white hangat */
+  --bg-alt: 	#ecE9df;  /* sedikit lebih gelap untuk selang-seling section */
   --ink: #1b1b1b;     /* teks */
   --muted: #5d5b55;
-  --accent: #1f7a4d;  /* hijau, satu-satunya warna aksen */
+  --accent: #1f547a;  /* hijau, satu-satunya warna aksen */
   --line: #d9d5c8;
 
   --font: "DM Sans", system-ui, sans-serif;
